@@ -1,0 +1,218 @@
+html, body {
+    background: #11131E;
+    height: 100%;
+    width: 100%;
+  }
+
+  .event {
+    position: relative;
+    background: #11131E;
+    background-size: 400% 400%;
+    background-position: 100% 100%;
+    height: 180vh;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: calc(var(--gap) * 2);
+    overflow: hidden;
+    /* animation: bg-animation 20s alternate infinite; */
+  }
+
+  .flex-container{
+
+    margin: 10vh 20vw 0vh 20vw;
+    width: 60vw;
+    height: 150vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+  }
+
+  .item1{
+    width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 1%;
+  }
+
+  .flex-item{
+    background: radial-gradient(#12444a, #161B33);
+    color: whitesmoke;
+    border: #f1f3f4 solid 1.5px;
+    border-radius: 10px;
+    box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 0.9rem #ef248a,
+            0 0 0.5rem #fe13c7,
+            0 0 2.6rem #f31bd9,
+            inset 0 0 1.2rem #f32adf; 
+  }
+
+  .flex-image{
+    height: 40vh;
+    width: 20vw;
+    margin-right: 20px;
+  }
+  .flex-desc{
+    width: 35vw;
+    min-height: 30vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    /* white-space: nowrap; */
+  }
+  .flex-button{
+    height: 10vh;
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+
+
+  .item2{
+    width: 25vw;
+    height: 75vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    margin: 15px;
+  }
+
+  .textglow {
+    margin: 0;
+    padding: 9px;
+    font-size: 27px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #eeeeee, 0 0 20px #513838, 0 0 30px #483636, 0 0 40px #3e2c2c, 
+                   0 0 50px #9554b3, 0 0 60px #9554b3, 0 0 70px #9554b3;
+    }
+    to {
+      text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 
+                   0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+
+  .button {
+    position: relative;
+    overflow: hidden;
+    height: 2.8rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #071141;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+  }
+  
+  .button:hover::before {
+    transform: scaleX(1);
+  }
+  
+  .button-content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(
+      82.3deg,
+      #ff69bc 12.8%,
+      #f85263 94.3%
+    );
+    transition: all 0.475s;
+  }
+
+  .row1{
+    height: 30vh;
+    width: 15vw;
+  }
+
+  .row2{
+    width: 34vw;
+    min-height: 23vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+  }
+
+  @media screen and (max-width: 1135px) {
+    .item2{
+      width: 60vw;
+    height: 50vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 1%;
+    margin: 1%;
+    }
+    .row1{
+      height: 40vh;
+      width: 20vw;
+    }
+  }
+
+  @media screen and (max-width: 580px) {
+    .item1{
+      width: 60vw;
+      height: 65vh;
+
+    }
+    .item2{
+      width: 60vw;
+      height: 65vh;
+
+    }
+    .flex-image{
+      height: 30vh;
+      width: 15vw;
+      margin-right: 20px;
+    }
+    .flex-desc{
+      width: 35vw;
+      min-height: 30vh;
+
+    }
+    .flex-button{
+      height: 10vh;
+      width: 35vw;
+
+    }
+    .row1{
+      background-color: #483636;
+      height: 30vh;
+      width: 15vw;
+    }
+
+  }
