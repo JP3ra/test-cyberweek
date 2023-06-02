@@ -26,7 +26,7 @@ const instantiateGrid = () => {
 const createTriangleSet = (index, column, row) => {
   let el = document.createElement("div");
   el.classList.add("triangle-set");
-	if (row % 2 == 0) el.classList.add("triangle-set--offset");
+	if (row % 2 === 0) el.classList.add("triangle-set--offset");
   
   container.appendChild(el);
 }
