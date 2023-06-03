@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 import "./Navbar.css";
-import compsoc from './compsoc.png';
+import compsoc from './images/compsoc.png';
 import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import { ImCross } from "react-icons/im";
@@ -24,27 +24,27 @@ const Navbar = () => {
           {mobile ? <ImCross /> : <FaBars />}
         </button>
         <ul className={mobile ? "nav-links-mobile" : "nav-links"}>
-          <li style={{color:'white'}} onClick={handleMobileMenu} >
+          <li style={{color:'white'}} >
             <Link to='/' className='home'>
               Home
             </Link>
           </li>
-          <li onClick={handleMobileMenu}>
+          <li>
             <Link to='/events' className='events'>
               Events
             </Link>
           </li>
-          <li onClick={handleMobileMenu}>
+          <li >
             <Link to='/sponsors' className='sponsors'>
               Collaborators and Sponsors
             </Link>
           </li>
-          <li onClick={handleMobileMenu}>
+          <li>
             <Link to='/committee' className='committee'>
               Organising Committee
             </Link>
           </li>
-          <li onClick={handleMobileMenu}>
+          <li>
             <Link to='/contact' className='contact'>
               Contact
             </Link>

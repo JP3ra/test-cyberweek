@@ -24,7 +24,7 @@ function App() {
       </Router>
       {/* <Landing /> */}
 
-      {Events}
+      <Events/> 
     </>
   );
 }

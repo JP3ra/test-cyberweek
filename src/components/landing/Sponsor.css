@@ -1,0 +1,143 @@
+@import url("https://fonts.cdnfonts.com/css/black-future");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containerSponsor {
+  height: 100%;
+  position: relative;
+  margin-top: 100px;
+  font-size: 3.5rem;
+  margin: 80px 150px;
+}
+
+.heading{
+  text-align: center;
+  font-family: "Bruno Ace", cursive;
+  font-size: 50px;
+  margin-top: 27px;
+  margin-bottom: 50px;
+  background: #810ccf;
+  background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.containerSponsor {
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row1 {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.row2 {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.image1 {
+  margin: 20px;
+  width: 250px;
+  height: 100px;
+  background-image: url(./images/stc-removebg-preview.png);
+  background-size: cover;
+  background-size: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image2 {
+  margin: 20px;
+  width: 250px;
+  height: 100px;
+  background-image: url(./images/IEEE-CS-BangaloreChapter-White-Logo.png);
+  background-size: cover;
+  background-size: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image3 {
+  margin: 20px;
+  width: 250px;
+  height: 100px;
+  background-image: url(./images/Bangalore-Section-Logo-white-1-01.png);
+  background-size: cover;
+  background-size: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image4 {
+  margin: 20px;
+  width: 250px;
+  height: 150px;
+  background-image: url(./images/Bangalore-Section-Logo-white-1-01.png);
+  background-size: cover;
+  background-size: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.image5 {
+  margin: 20px;
+  width: 250px;
+  height: 150px;
+
+  background-image: url(./images/Bangalore-Section-Logo-white-1-01.png);
+  background-size: cover;
+  background-size: 240px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.ise {
+    margin-top: 27px;
+    margin-bottom: 50px;
+    text-align: center;
+  font-family: "Bruno Ace", cursive;
+  font-size: 25px;
+  color: white;
+}
+
+/* .image6{
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+
+    background-image: url(./images/Bangalore-Section-Logo-white-1-01.png);
+    background-size: cover;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
+
+@media (max-width: 986px) {
+  p {
+    font-size: 40px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 860px) {
+  .containerSponsor {
+    display: flex;
+    flex-direction: column;
+  }
+  .row1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: column;
+  }
+}

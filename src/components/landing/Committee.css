@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.ochead {
+  text-align: center;
+  font-family: "Bruno Ace", cursive;
+  font-size: 50px;
+  margin-top: 27px;
+  margin-bottom: 50px;
+  background: #810ccf;
+  background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.core{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.dyuthi{
+    width: 200px;
+    height: 200px;
+    margin: 13px;
+    background-image: url(./images/Dyuthi\ B\ V.jpg);
+    background-size: cover;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.core div p{
+    position: relative;
+    text-align: center;
+    top: 220px;
+    font-weight: 700;
+}
+
+.core div .name{
+    background: #810ccf;
+  background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.priyanshu{
+    width: 200px;
+    height: 200px;
+    margin: 13px;
+    background-image: url(./images/priyanshu.jpg);
+    background-size: cover;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.om{
+    width: 200px;
+    height: 200px;
+    margin: 13px;
+    background-image: url(./images/om.jpg);
+    background-size: cover;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.jp{
+    width: 200px;
+    height: 200px;
+    margin: 13px;
+    background-image: url(./images/jp.jpg);
+    background-size: cover;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.dishaCore{
+    width: 200px;
+    height: 200px;
+    margin: 13px;
+    background-image: url(./images/dash.JPG);
+    background-size: cover;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.bytes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .ocvolunteer {
+    text-align: center;
+    font-family: "Bruno Ace", cursive;
+    font-size: 50px;
+    margin: 120px 0 50px;
+    background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .batch1,
+  .batch2,
+  .batch3,
+  .batch4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .batch1 div p,
+  .batch2 div p,
+  .batch3 div p,
+  .batch4 div p {
+    position: relative;
+    text-align: center;
+    top: 220px;
+    font-weight: 700;
+    background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .aneesh{
+    background-image: url(./images/Aneesh.jpg);
+  }
+  .danush{
+    background-image: url(./images/S\ Danush.jpg);
+  }
+  .dheemanth{
+    background-image: url(./images/dheemanth.jpg);
+  }
+  .disha{
+    background-image: url(./images/Disha\ Lohia.jpeg);
+  }
+  .kruthika{
+    background-image: url(./images/kruthika.jpg);
+  }
+  .kushagra{
+    background-image: url(./images/kushagra.jpg);
+  }
+  .prajwal{
+    background-image: url(./images/prajwal.jpg);
+  }
+  .manjari{
+    background-image: url(./images/Manjari\ Joshi.jpeg);
+  }
+  .nischit{
+    background-image: url(./images/nischit.jpeg);
+  }
+  .pranav{
+    background-image: url(images/pranav.jpg);
+  }
+  .samraat{
+    background-image: url(./images/samraat.jpg);
+  }
+  .sanjana{
+    background-image: url(./images/Sanjana.JPG);
+  }
+  .shreya{
+    background-image: url(./images/IMG_20230602_122706.jpg);
+  }
+  .shubham{
+    background-image: url(./images/shubham.jpg);
+  }
+  .sneha{
+    background-image: url(./images/Sneha\ N\ Shastri.jpeg);
+  }
+  .krishna{
+    background-image: url(./images/Krishna.jpg);
+  }
+
+  .srilakshmi{
+    background-image: url(./images/Srilakshmi\ MR_.jpg);
+  }
+  .tamina{
+    background-image: url(./images/Tk.jpeg);
+  }
+
+  .vedant{
+    background-image: url(./images/Vedant\ Khandelwal.jpeg);
+  }
+  .bytes div[class^='batch'] div {
+    width: 200px;
+    height: 200px;
+    margin: 13px;
+    /* background-image: url(./images/Disha.JPG); */
+    background-size: cover;
+    background-size: 240px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .bytes div[class^='batch']:nth-child(n+3) div {
+    margin-top: 50px;
+  }
+  
+  .bytes div[class^='batch'] div:nth-child(n+2) {
+    margin-left: 50px;
+  }
+
+
+
+@media (max-width: 1148px){
+    .core{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .core div{
+        width: 400px;
+        margin: 40px auto;
+    }
+
+}   
+
+@media (max-width:986px){
+    .core div p{
+        position:relative;
+        font-size: 20px;
+    }
+
+    .names{
+        position: relative;
+        top: 10px;
+    }
+
+    .position{
+        display: none;
+    }
+    
+}

@@ -1,9 +1,11 @@
 import React from 'react'
+import Navbar from '../landing/Navbar';
 
-export default function Events() {
+function Events() {
   return (
-    <div>
-      hi
-    </div>
+    <>
+    </>
   )
 }
+
+export default Events
