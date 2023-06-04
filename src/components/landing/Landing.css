@@ -31,7 +31,7 @@ html, body {
   animation: bg-animation 20s alternate infinite;
 }
 
-h1 {
+.hero h1 {
   position: absolute;
   left: 50%;
   top: 50%;

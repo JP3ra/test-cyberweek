@@ -2,7 +2,7 @@
 import './App.css';
 import Landing from './components/landing/Landing';
 import Navbar from './components/landing/Navbar';
-import Events from './components/landing/Events';
+import Events from './components/even/Events';
 import Sponsors from './components/landing/Sponsors';
 import Committee from './components/landing/Committee';
 import Contact from './components/landing/Contact';
@@ -24,7 +24,7 @@ function App() {
       </Router>
       {/* <Landing /> */}
 
-      <Events/> 
+      {/* <Events/>  */}
     </>
   );
 }
