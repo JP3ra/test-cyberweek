@@ -11,21 +11,7 @@ function Sponsors() {
             <div className='containerSponsor'>
 
                 <p className='ise'>In association with the department of ISE, BMSCE</p>
-                {/* <div className="img1">
-                    <img src={compsoc} alt="" />
-                </div>
 
-                <div className="img2">
-                    <img src={stc} alt="" className='stcLogo' />
-                </div>
-
-                <div className="img3">
-                    <img src={csbc} alt="" />
-                </div>
-                <br></br>
-                <img src={compsoc} alt="" />
-                <img src={compsoc} alt="" />
-                <img src={compsoc} alt="" /> */}
 
                 <div className="row1">
 
@@ -37,7 +23,7 @@ function Sponsors() {
 
                     </div>
                     <div className='image3'>
-                 
+
                     </div>
                 </div>
 
@@ -45,14 +31,32 @@ function Sponsors() {
 
 
                     <div className='image4'>
-       
+
                     </div>
                     <div className='image5'>
-       
+
                     </div>
-                    {/* <div className='image6'>
-                        hi
-                    </div> */}
+
+                    <div className="image6">
+
+                    </div>
+                    
+                </div>
+
+                <div className="row3">
+
+
+                    <div className='image7'>
+
+                    </div>
+                    <div className='image8'>
+
+                    </div>
+
+                    <div className="image9  ">
+
+                    </div>
+                    
                 </div>
             </div>
         </>
