@@ -12,7 +12,8 @@ function App() {
   return (
     <>
       <Router>
-      <Navbar />
+      {/* <Landing /> */}
+      {/* <Navbar /> */}
 
         <Routes>
           <Route path='/' Component = {Landing} exact></Route>
@@ -22,7 +23,6 @@ function App() {
           <Route path='/contact' Component={Contact} exact></Route>
         </Routes>
       </Router>
-      {/* <Landing /> */}
 
       {/* <Events/>  */}
     </>

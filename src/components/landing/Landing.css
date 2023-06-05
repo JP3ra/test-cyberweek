@@ -17,35 +17,18 @@ html, body {
   height: 100%;
   width: 100%;
 }
-
 .hero {
   position: relative;
   background: radial-gradient(#2C666E, #161B33);
   background-size: 400% 400%;
   background-position: 100% 100%;
-  height: 100vh;
+  height: 93vh;
   width: 100%;
   box-sizing: border-box;
   padding-bottom: calc(var(--gap) * 2);
   overflow: hidden;
   animation: bg-animation 20s alternate infinite;
 }
-
-.hero h1 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  padding: 1rem;
-  transform: translate(-50%, -50%);
-  background: #0D0C1D;
-  border-radius: 5rem;
-  box-shadow: 0 0 1rem 1rem #0D0C1D;
-  color: white;
-  font-size: 2.5rem;
-  font-family: "Bruno Ace", cursive;
-  text-align: center;
-}
-
 @keyframes bg-animation {
   from {
     background-position: 0% 0%;
@@ -105,4 +88,107 @@ html, body {
 .triangle-set::after {
   right: calc(var(--gap) * 2.5);
   border-top: var(--triangle-height) solid #0D0C1D;
+}
+
+.hero h1 {
+  /* position: absolute;
+  left: 50%;
+  top: 50%; */
+  padding: 1rem;
+  /* transform: translate(-50%, -50%); */
+  /* background: #0D0C1D; */
+  border-radius: 5rem;
+  box-shadow: 0 0 1rem 1rem #0D0C1D;
+  color: white;
+  font-size: 3.5em;
+  font-family: "Bruno Ace", cursive;
+  text-align: center;
+  background: #810ccf;
+  background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.container-landing{
+  
+  transform: translate(-50%, -50%);
+  display:flex;
+  flex-direction:row;
+  z-index: 2;
+  
+}
+.left-landing{
+  position: absolute;
+  left: 6%;
+  top: 30%;
+  width:35em;
+  height: 20em;
+  padding: 20px;
+  /* height:20em; */
+  /* border: 2px solid white; */
+  border-radius: 20px;
+  background:rgb(13,12,29,0.7);
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align: center;
+}
+
+.right-landing{
+  position: absolute;
+  right: 5%;
+  top: 15%;
+
+}
+.right-landing img{
+  height: 40em;
+}
+
+.button-landing {
+  width: 18em;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button-landing::after {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+  transform-origin: center;
+}
+
+.button-landing::before {
+  content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #212121;
+  transition: 0.5s;
+}
+
+.button-landing:hover::before, .button-landing:hover::after {
+  transform: scale(0)
+}
+
+.button-landing:hover {
+  box-shadow: inset 0px 0px 25px #1479EA;
 }

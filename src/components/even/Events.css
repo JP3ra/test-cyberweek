@@ -1,21 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
-/* .container{
-    display: flex;
-
-} */
-.box{
-    /* width: 60em; */
-    /* height:10em; */
-    border: 2px solid wheat;
-    margin: auto;
-    margin-top: 9em;
+ /* html,body{
+    background: linear-gradient(to right top, #810ccf, #4c28a8, #26287c, #14204c, #11131e);
+  } */
+.container-events-row{
     display: flex;
     flex-direction: row;
-    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    flex-wrap: wrap;
+}
+.container-events-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tracks{
+  width: 100vw;
+}
+.box{
+    width: 90vw;
+    /* height:10em; */
+    /* border: 2px solid wheat; */
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba(0,0,0,1) 79%);
+    border-radius: 20px;
+    /* margin: auto; */
+    /* margin-top: 9em; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 20px;
     flex-wrap: wrap;
 }
@@ -24,7 +45,7 @@
 }
 .poster img{
     /* width: 35em; */
-    height: 25em;
+    height: 30em;
 }
 .content{
     width: 30em;
@@ -34,19 +55,216 @@
     align-items: center;
     justify-content: space-around;
 }
+.prize-team{
+  width: 30em;
+  margin-top: 0px;
+}
+.details-events h4{
+  font-size: 1.5em;
+  font-family: "Bruno Ace", cursive;
+  background: #810ccf;
+  background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.content h1, .small-content h1, .container-events-column h1{
+    font-size: 3em;
+    font-weight: 600;
+    font-family: "Bruno Ace", cursive;
+    background: #810ccf;
+    background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.small-content h1{
+  font-size: 2.8em;
+  margin-top: 80px;
+}
+.card-content h3{
+  font-size: 1.79em;
+  font-weight: 600;
+  font-family: "Bruno Ace", cursive;
+  background: #810ccf;
+  background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.card-content h2{
+  font-size: 2em;
+  font-weight: 600;
+  font-family: "Bruno Ace", cursive;
+  background: #810ccf;
+  background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ .small-content p{
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1em;
+  padding: 0px 14px;
+}
+.content p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+}
+.card-content{
+  display: flex;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+.card-icon{
+  font-size: 5em;
+}
+.small-box{
+    width: 30em;
+    height: 57em;
+    /* border: 2px solid white;  */
+    border-radius: 20px;
+background: rgb(0,0,0);
+background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba(0,0,0,1) 79%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.small-poster{
+    
+}
+.small-poster img{
+    height: 20em;
+}
+.small-content{
+    height: 28em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+/* cards code for tracks */
+.card {
+  width: 25em;
+  height: 300px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all .3s;
+ }
+ 
+ .card2 {
+  width: 25em;
+  height: 300px;
+  background-color: #1a1a1a;
+  border-radius:0;
+  transition: all .2s;
+ }
+ 
+ .card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+ }
+ 
+ .card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+ }
+
+@media (max-width: 956px) {
+  .box{
+    width: 50em;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+  }
+  .content{
+    height: 30em;
+  }
+  .small-box{
+    margin-top: 40px;
+  }
+}
+@media (max-width:555px){
+  .box{
+    width: 100%;
+    height: 60em;
+    font-size: 0.9;
+  }
+  .container-events-column h1{
+    font-size: 2.5em;
+  }
+  .card{
+    margin-top: 20px;
+  }
+  .poster img{
+    height: 20em;
+  }
+  .content{
+    text-align: center;
+    margin: 0px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* to create a glitch button */
-button,button::after {
+.button-events,.button-events::after {
     padding: 10px 50px;
     font-size: 20px;
     border: none;
     border-radius: 5px;
-    color: white;
+    background: #810ccf;
+    background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+    font-weight: 400;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-color: transparent;
     position: relative;
+    margin-top: 7px;
   }
   
-  button::after {
+  .button-events::after {
     --move1: inset(50% 50% 50% 50%);
     --move2: inset(31% 0 40% 0);
     --move3: inset(39% 0 15% 0);
@@ -63,7 +281,7 @@ button,button::after {
     display: block;
   }
   
-  button:hover::after {
+  .button-events:hover::after {
     animation: glitch_4011 1s;
     text-shadow: 10 10px 10px black;
     animation-timing-function: steps(2, end);
@@ -72,11 +290,11 @@ button,button::after {
     border: 3px solid rgb(0, 255, 213);
   }
   
-  button:hover {
+  .button-events:hover {
     text-shadow: -1px -1px 0px #1df2f0, 1px 1px 0px #E94BE8;
   }
   
-  button:hover {
+  .button-events:hover {
     background-color: transparent;
     border: 1px solid rgb(0, 255, 213);
     box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
