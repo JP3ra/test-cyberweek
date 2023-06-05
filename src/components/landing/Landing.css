@@ -192,3 +192,45 @@ html, body {
 .button-landing:hover {
   box-shadow: inset 0px 0px 25px #1479EA;
 }
+
+@media (max-width:1186px){
+  .left-landing{
+    width: 30em;
+    height: 20em;
+    top: 60%;
+    left:25%
+  }
+  .right-landing{
+    top: 10%;
+    left: 30%;
+  }
+  .right-landing img{
+    height: 25em;
+
+  }
+}
+@media (max-width:626px){
+  .left-landing{
+    width:100%;
+    height: 20em;
+    top: 48%;
+    left:0%
+  }
+  .right-landing{
+    top: 0%;
+    left: 3%;
+  }
+  .right-landing img{
+    height: 25em;
+  
+  }
+  .hero h1{
+    font-size: 35px;
+  }
+  .container-countdown p{
+    margin: 20px;
+    font-size: 0.9em;
+    font-family: "Bruno Ace", cursive;
+    
+}
+}

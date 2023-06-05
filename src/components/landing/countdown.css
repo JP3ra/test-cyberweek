@@ -13,3 +13,8 @@
 .count-heading{
 
 }
+@media (max-width:626px){
+    .container-countdown p{
+        font-size: 1em;
+    }
+}

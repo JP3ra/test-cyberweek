@@ -13,7 +13,7 @@ function App() {
     <>
       <Router>
       {/* <Landing /> */}
-      {/* <Navbar /> */}
+      <Navbar />
 
       {/* <Landing /> */}
         <Routes>

@@ -3,14 +3,12 @@ import './Events.css'
 import {LuNetwork} from 'react-icons/lu' 
 import {GiHealthNormal} from 'react-icons/gi'
 import {FaLightbulb} from 'react-icons/fa'
-import Navbar from '../landing/Navbar'
 import poster from './images/Securehack.jpeg'
 export default function Events() {
   return (
     <>
-      <Navbar />
       <div className="container-events-column">
-            <h1 >Securehack 2023</h1>
+            <h1 className='hack-head'>Securehack 2023</h1>
         <div className="box">
           <div className="poster">
             <img src={poster} alt="" />
@@ -84,12 +82,12 @@ export default function Events() {
               <a href="https://forms.gle/Qe4ue1h6F2suEtnx6" target='__blank'><button className='button-events'>Register Now</button></a>
           </div>
         </div>
-        <div className="small-box">
+        <div className="small-box forenseics-box">
           <div className="small-poster">
             <img src={poster} alt="" />
           </div>
-          <div className="small-content">
-            <h1>Forensics Workshop</h1>
+          <div className="small-content forensics-content">
+            <h1 className='forensics'>Forensics Workshop</h1>
             <p>Are you keen on learning about cyber security and how to defend yourself from online hazards? Join us for an interactive workshop to explore the depths of cyberspace and gain the skills and knowledge to protect computer systems, and data and to outsmart hackers. Our cybersecurity professionals will guide you through captivating sessions, where you'll learn the latest tricks of uncovering hidden vulnerabilities,  network security, forensics and much more to hone your Cyber Security skills with state-of-the-art tools and techniques.</p>
             
             <a href="https://forms.gle/ydDQgkPwmaAfSEP18" target='__blank'><button className='button-events'>Register Now</button></a>
