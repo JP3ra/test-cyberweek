@@ -4,6 +4,9 @@ import {LuNetwork} from 'react-icons/lu'
 import {GiHealthNormal} from 'react-icons/gi'
 import {FaLightbulb} from 'react-icons/fa'
 import poster from './images/Securehack.jpeg'
+import Workshop from './images/Forensics (1).png';
+import hacakthon from './images/NO CODE (13).png';
+import ideathon from './images/Final (4).png';
 export default function Events() {
   return (
     <>
@@ -11,10 +14,10 @@ export default function Events() {
             <h1 className='hack-head'>Securehack 2023</h1>
         <div className="box">
           <div className="poster">
-            <img src={poster} alt="" />
+            <img src={hacakthon} alt="" />
           </div>
           <div className="content">
-            <p className='w3-animate-right'>Have you ever wondered how to shield yourself from the dark and mysterious world of cyber threats? Well, buckle up, because we've got something incredibly exciting coming your way! Get ready to level up your cyber defense skills at our mind-blowing Cyber Security Hackathon.
+            <p className='w3-animate-right' id='hackathonDesc'>Have you ever wondered how to shield yourself from the dark and mysterious world of cyber threats? Well, buckle up, because we've got something incredibly exciting coming your way! Get ready to level up your cyber defense skills at our mind-blowing Cyber Security Hackathon.
               The aim of this cybersecurity hackathon is to address challenges and cybercrimes in the country. You'll team up with like-minded enthusiasts and work together to crack codes, solve puzzles, and infiltrate virtual fortresses. It's a thrilling race against time that will challenge your problem-solving skills and push you to think outside the box.</p>
               <div className="container-events-row prize-team">
                 <div className="details-events container-events-column">
@@ -29,7 +32,7 @@ export default function Events() {
               <a href="https://forms.gle/auzpEfD4bSKf5Suy9" target='__blank'><button className='button-events'>Register Now</button></a>
           </div>
         </div>
-        <h1>Tracks</h1>
+        <h1 className='tracksHeading'>Tracks</h1>
         <div className="container-events-row tracks">
           <div class="card">
             <div class="card2">
@@ -50,7 +53,7 @@ export default function Events() {
             </div>
           </div>
 
-          <div class="card">
+          <div class="card" id='health'>
             <div class="card2">
             <div className="card-content">
                 <GiHealthNormal className='card-icon'/>
@@ -64,7 +67,7 @@ export default function Events() {
       <div className="container-events-row">
         <div className="small-box">
           <div className="small-poster">
-            <img src={poster} alt="" />
+            <img src={ideathon} alt="" />
           </div>
           <div className="small-content">
             <h1>Securathon</h1>
@@ -82,13 +85,13 @@ export default function Events() {
               <a href="https://forms.gle/Qe4ue1h6F2suEtnx6" target='__blank'><button className='button-events'>Register Now</button></a>
           </div>
         </div>
-        <div className="small-box forenseics-box">
+        <div className="small-box forenseics-box" id='forensicsBox'>
           <div className="small-poster">
-            <img src={poster} alt="" />
+            <img src={Workshop} alt="" />
           </div>
           <div className="small-content forensics-content">
-            <h1 className='forensics'>Forensics Workshop</h1>
-            <p>Are you keen on learning about cyber security and how to defend yourself from online hazards? Join us for an interactive workshop to explore the depths of cyberspace and gain the skills and knowledge to protect computer systems, and data and to outsmart hackers. Our cybersecurity professionals will guide you through captivating sessions, where you'll learn the latest tricks of uncovering hidden vulnerabilities,  network security, forensics and much more to hone your Cyber Security skills with state-of-the-art tools and techniques.</p>
+            <h1 className='forensics' id='forensics'>Forensics Workshop</h1>
+            <p id='forensicsDesc'>Are you keen on learning about cyber security and how to defend yourself from online hazards? Join us for an interactive workshop to explore the depths of cyberspace and gain the skills and knowledge to protect computer systems, and data and to outsmart hackers. Our cybersecurity professionals will guide you through captivating sessions, where you'll learn the latest tricks of uncovering hidden vulnerabilities,  network security, forensics and much more to hone your Cyber Security skills with state-of-the-art tools and techniques.</p>
             
             <a href="https://forms.gle/ydDQgkPwmaAfSEP18" target='__blank'><button className='button-events'>Register Now</button></a>
           </div>

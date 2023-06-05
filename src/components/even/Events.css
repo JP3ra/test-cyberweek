@@ -40,10 +40,15 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
     padding: 20px;
     flex-wrap: wrap;
 }
+
+#hackathonDesc{
+  text-align: justify;
+}
 .poster{
     /* width: 35em; */
 }
 .poster img{
+  padding-top: 0px;
     /* width: 35em; */
     height: 30em;
 }
@@ -69,6 +74,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
 
 }
 .content h1, .small-content h1, .container-events-column h1{
+
     font-size: 3em;
     font-weight: 600;
     font-family: "Bruno Ace", cursive;
@@ -77,11 +83,17 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+.tracksHeading{
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
 .small-content h1{
   font-size: 2.8em;
-  margin-top: 80px;
+  margin-top: 133px;
 }
 .card-content h3{
+  
   font-size: 1.79em;
   font-weight: 600;
   font-family: "Bruno Ace", cursive;
@@ -99,14 +111,16 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
- .small-content p{
+.small-content p {
   font-family: "Poppins", sans-serif;
   font-size: 1.1em;
-  padding: 0px 14px;
+  /* padding: 0px 14px; */
+  text-align: justify;
+  padding: 0px 40px;
 }
 .content p{
     font-family: "Poppins", sans-serif;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
 }
 .card-content{
@@ -123,7 +137,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
 }
 .small-box{
     width: 30em;
-    height: 57em;
+    height: 60em;
     /* border: 2px solid white;  */
     border-radius: 20px;
 background: rgb(0,0,0);
@@ -137,6 +151,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
     
 }
 .small-poster img{
+    margin-top: 30px;
     height: 20em;
 }
 .small-content{
@@ -144,7 +159,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
     text-align: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: justify;
     justify-content: space-around;
 }
 /* cards code for tracks */
@@ -173,6 +188,21 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
   box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
  }
 
+@media (max-width: 1048px){
+  #hackathonDesc{
+    margin-top: 30px;
+    position: relative;
+    right: 12px;
+    text-align: justify;
+  }
+}
+
+
+@media (max-width: 1124px){
+  .card{
+    margin-top: 40px;
+  }
+}
 @media (max-width: 956px) {
   .box{
     width: 50em;
@@ -187,11 +217,32 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
     margin-top: 40px;
   }
 }
-@media (max-width:555px){
+
+@media (max-width: 776px){
   .box{
-    width: 100%;
+    width: 42em;
+  }
+}
+
+@media (max-width: 688px){
+  .box{
+    width: 36em;
+  }
+}
+@media (max-width:584px){
+  .box{
+    width: 32em;
     height: 60em;
     font-size: 0.9;
+  }
+
+  #hackathonDesc{
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-align: justify;
+    justify-content: center;
+    position: relative;
+    left: 3px;
   }
   .container-events-column h1{
     font-size: 2.5em;
@@ -200,6 +251,7 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
     margin-top: 20px;
   }
   .poster img{
+
     height: 20em;
   }
   .content{
@@ -225,8 +277,62 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 30%, rgba(17,19,30,1) 55%, rgba
   }
 }
 
+@media  (max-width: 520px) {
+  .box{
+    width: 29em;
+  }
+
+  #hackascthonDesc{
+    text-align: justify;
+    font-size: 13px;
+    position: relative;
+    left: 4px;
+    color: red;
+  }
+}
 
 
+@media (max-width: 480px){
+  .small-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25em;
+    height: 66em;
+    padding: 0px 10px;
+  }
+
+  .small-content p{
+    font-size: 15px;
+    text-align:center;
+    padding: 0px 80px;
+  }
+  .small-content h1{
+    margin-top: 5.3em;
+  }
+
+  #forensics{
+    margin-top: 4.3em;
+    padding: 0px 30px;
+  }
+  #forensicsBox{
+    height: 60em;
+    padding: 0px 0px;
+  }
+  #forensicsDesc{
+    padding: 0px 30px;
+  }
+}
+@media (max-width: 450px){
+  .box{
+    margin: auto;
+    width: 24.7em;
+  }
+  #hackathonDesc{
+    padding: 0px 22px;
+    font-size: 14px;
+    text-align: center;
+  }
+}
 
 
 
