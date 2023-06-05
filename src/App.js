@@ -15,6 +15,7 @@ function App() {
       {/* <Landing /> */}
       {/* <Navbar /> */}
 
+      {/* <Landing /> */}
         <Routes>
           <Route path='/' Component = {Landing} exact></Route>
           <Route path='/events' Component={Events} exact></Route>

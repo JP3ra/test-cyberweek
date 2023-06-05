@@ -23,7 +23,6 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10vh;
   color: white;
   padding: 0 20px;
   background: none;
@@ -54,7 +53,11 @@ img{
   }
   
   .nav-links li a:hover {
-    color: aqua;
+    font-weight: 600;
+    background: #810ccf;
+    background: linear-gradient(to top left, #810ccf 0%, #cf44a1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: 0.5s all ease-in-out;
   }
 

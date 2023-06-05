@@ -224,10 +224,73 @@
         flex-direction: column;
         margin: auto;
     }
+    
+    .batch1{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+    }
+
+    .aneesh{
+      position: relative;
+      left: 38px;
+    }
+    .kushagra{
+      position: relative;
+      left: 38px;
+    }
+
+    .samraat{
+      position: relative;
+      left: 38px;
+    }
+
+    .krishna{
+      position: relative;
+      left: 38px;
+    }
+    .batch2{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .batch3{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .batch4{
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .batch1 div p,
+    .batch2 div p,
+    .batch3 div p,
+    .batch4 div p {
+  
+      position: relative;
+      top :200px;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 700;
+      
+    }
+
 
     .core div{
         width: 400px;
         margin: 40px auto;
+    }
+
+    .ocvolunteer {
+      text-align: center;
+      display: flex;
+    
     }
 
 }   
