@@ -14,7 +14,7 @@ function Contact() {
                 <a href="https://www.instagram.com/bmsce_compsoc/" target='_blank'><FaInstagram className='insta' /></a>
                 <a href="https://www.linkedin.com/company/bmsce-ieee-computer-society/" target='_blank'><FaLinkedin className='linked' /></a>
                 <br></br>
-                <SiGooglemaps className='maps' /><a href="https://www.google.com/maps/place/BMS+College+of+Engineering/@12.9410122,77.5633371,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae158b11e34d2f:0x5f4adbdbab8bd80f!8m2!3d12.9410122!4d77.5655258!16zL20vMDM5ejcy?entry=ttu" target="_blank" className='collegeName'>B.M.S College of Engineering</a>
+                <SiGooglemaps className='maps' /><a href="https://www.google.com/maps/place/BMS+College+of+Engineering/@12.9410122,77.5633371,17z/data=!3m1!4b1!4m6!3m5!1s0x3bae158b11e34d2f:0x5f4adbdbab8bd80f!8m2!3d12.9410122!4d77.5655258!16zL20vMDM5ejcy?entry=ttu" target="_blank" className='collegeName'>B.M.S. College of Engineering</a>
 
                 <form class="form" target="_blank" action="https://formsubmit.co/ieee.cs@bmsce.ac.in" method="POST">
                     <input type="email" placeholder="Your email" class="input" />

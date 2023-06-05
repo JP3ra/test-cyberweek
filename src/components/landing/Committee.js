@@ -6,7 +6,7 @@ function Committee() {
     return (
         <>
             <div className="container">
-            <p className='ochead'>Organising Committee Head</p>
+            <p className='ochead'>Organising Committee Heads</p>
 
                 <div className="core">
                     <div className='dyuthi'>
@@ -38,10 +38,10 @@ function Committee() {
                     <div className="batch1">
 
                         <div className='aneesh'>
-                            <p className="name">Aneesh K P</p>
+                            <p className="name">Aneesh </p>
                         </div>
                         <div className='danush'>
-                            <p className="name">Danush S</p>
+                            <p className="name">Danush</p>
                         </div>
                         <div className='dheemanth'>
                             <p className="name">Dheemanth</p>
@@ -61,16 +61,16 @@ function Committee() {
                             <p className="name">Kushagra</p>
                         </div>
                         <div className='prajwal'>
-                            <p className="name">M B Prajwal</p>
+                            <p className="name">Prajwal</p>
                         </div>
                         <div className='manjari'>
-                            <p className="name">Manjari Joshi</p>
+                            <p className="name">Manjari</p>
                         </div>
                         <div className='nischit'>
                             <p className="name">Nischit</p>
                         </div>
                         <div className='pranav'>
-                            <p className="name">Pranav Y</p>
+                            <p className="name">Pranav</p>
                         </div>
                     </div>
 
@@ -102,7 +102,7 @@ function Committee() {
                             <p className="name">Srilakshmi</p>
                         </div>
                         <div className='tamina'>
-                            <p className="name">TK Tamina</p>
+                            <p className="name">Tulasikrishna</p>
                         </div>
                         <div className='vedant'>
                             <p className="name">Vedant</p>
